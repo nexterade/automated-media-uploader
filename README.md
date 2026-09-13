@@ -25,7 +25,7 @@
 
 **🎯 Untuk Pemula**
 - [Kenalan Dulu Yuk](#-kenalan-dulu-yuk)
-- [Penawaran Spesial](#-penawaran-spesial)
+- [Dongeng Singkat](#-dongeng-singkat)
 - [Quick Start](#-quick-start)
 - [Tutorial Lengkap](#-tutorial-lengkap)
 - [Setup Userhash (WAJIB)](#-setup-userhash-catbox-wajib)
@@ -34,7 +34,7 @@
 <td width="50%" valign="top">
 
 **🚀 Untuk Lanjutan**
-- [Dari Lokal ke Online](#-dari-lokal-ke-online)
+- [Dari Lokal jadi Online](#-dari-lokal-jadi-online)
 - [Fitur Lengkap](#-fitur-lengkap)
 - [Roadmap](#-roadmap)
 - [Troubleshooting](#-troubleshooting)
@@ -92,11 +92,10 @@ flowchart LR
 
 ---
 
-## 🎁 Penawaran Spesial
 
 <div align="center">
 
-### 📖 **DONGENG MODERN UNTUK DEWASA**
+### 📖 **DONGENG SINGKAT**
 
 ### *"Kisah Tentang Foto yang Tidak Pernah Dibuka"*
 
