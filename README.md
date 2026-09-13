@@ -1,6 +1,4 @@
-# 📸 Automated Media Uploader v6 — README.md (Versi Pendek)
-
-```markdown
+# 📸 Automated Media Uploader v6
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,30&height=180&section=header&text=Automated%20Media%20Uploader&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=v6%20%E2%80%94%20From%20Local%20Folder%20to%20Online%20Gallery&descAlignY=58&descSize=16&descFontColor=FFE5B4" width="100%"/>
