@@ -625,7 +625,7 @@ python main.py
 
 | Indonesia | Internasional |
 |:---------:|:-------------:|
-| [![Saweria](https://img.shields.io/badge/☕_Traktir_Kopi-Saweria-FF6B6B?style=for-the-badge)](https://saweria.co/nexterade) | [![Ko-fi](https://img.shields.io/badge/☕_Buy_Me_Coffee-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/nexterade) |
+| [![Saweria](https://img.shields.io/badge/Traktir_Kopi-Saweria-FF6B6B?style=for-the-badge)](https://saweria.co/nexterade) | [![Ko-fi](https://img.shields.io/badge/Buy_Me_Coffee-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/nexterade) |
 
 ### 🪙 Crypto Donation
 
@@ -667,7 +667,7 @@ DYw8jCTfwHNRJhhmFcbXvVDTqWMEVFBX6ZKUmG5CNSKK
 
 <div align="center">
 
-<img src="https://github.com/nexterade.png" alt="@nexterade" width="120" height="120" style="border-radius:50%;border:4px solid #5865F2;box-shadow:0 8px 24px rgba(88,101,242,.3);"/>
+<img src="https://avatars.githubusercontent.com/u/170690485?v=4" alt="@nexterade" width="120" height="120" style="border-radius:50%;border:4px solid #5865F2;box-shadow:0 8px 24px rgba(88,101,242,.3);"/>
 
 <br>
 
