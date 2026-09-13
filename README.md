@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,30&height=180&section=header&text=Automated%20Media%20Uploader&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=v6%20%E2%80%94%20From%20Local%20Folder%20to%20Online%20Gallery&descAlignY=58&descSize=16&descFontColor=FFE5B4" width="100%"/>
 
-<h3><i>"Repo Gratis Yang Mengubah Folder Jadi Website Yang Keren"</i></h3>
+<h3><i>Mengubah segalanya menjadi lebih mudah~</i></h3>
 
 <p>
 <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=flat-square&logo=python&logoColor=white"/>
@@ -667,19 +667,9 @@ DYw8jCTfwHNRJhhmFcbXvVDTqWMEVFBX6ZKUmG5CNSKK
 
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/170690485?v=4" alt="@nexterade" width="120" height="120" style="border-radius:50%;border:4px solid #5865F2;box-shadow:0 8px 24px rgba(88,101,242,.3);"/>
-
-<br>
-
 ### @nexterade
 
 *Full-stack Developer • Automation Enthusiast • Indonesia* 🇮🇩
-
-<p>
-<a href="https://github.com/nexterade"><img src="https://img.shields.io/badge/GitHub-@nexterade-181717?style=for-the-badge&logo=github"/></a>
-<a href="https://t.me/nexterade"><img src="https://img.shields.io/badge/Telegram-@nexterade-26A5E4?style=for-the-badge&logo=telegram"/></a>
-<a href="mailto:contact@nexterade.dev"><img src="https://img.shields.io/badge/Email-contact@nexterade.dev-EA4335?style=for-the-badge&logo=gmail"/></a>
-</p>
 
 ### *"Code with passion, share with love."*
 
@@ -718,15 +708,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 ## ⭐ Kalau bermanfaat, jangan lupa star! ⭐
 
-```
-╔═══════════════════════════════════════════════╗
-║   📸 Upload  ->  🎨 Generate  ->  🌐 Deploy  ║
-║                                               ║
-║   Repo Gratis Yang Mengubah Folder            ║
-║   Jadi Website Yang Keren                     ║
-║                                               ║
-║   Made with ❤️  in Indonesia 🇮🇩              ║
-╚═══════════════════════════════════════════════╝
-```
+Repo Gratis Yang Mengubah Folder Jadi Website Yang Keren
+
+Made with ❤️ in Indonesia 🇮🇩
 
 </div>
