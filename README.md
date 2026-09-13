@@ -1,4 +1,3 @@
-# 📸 Automated Media Uploader v6
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24,30&height=180&section=header&text=Automated%20Media%20Uploader&fontSize=44&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=v6%20%E2%80%94%20From%20Local%20Folder%20to%20Online%20Gallery&descAlignY=58&descSize=16&descFontColor=FFE5B4" width="100%"/>
@@ -19,40 +18,19 @@
 
 ## 📖 Daftar Isi
 
-<table align="center">
-<tr>
-<td width="50%" valign="top">
-
-**🎯 Untuk Pemula**
-- [Kenalan Dulu Yuk](#-kenalan-dulu-yuk)
-- [Dongeng Singkat](#-dongeng-singkat)
-- [Quick Start](#-quick-start)
-- [Tutorial Lengkap](#-tutorial-lengkap)
-- [Setup Userhash (WAJIB)](#-setup-userhash-catbox-wajib)
-
-</td>
-<td width="50%" valign="top">
-
-**🚀 Untuk Lanjutan**
-- [Dari Lokal jadi Online](#-dari-lokal-jadi-online)
-- [Fitur Lengkap](#-fitur-lengkap)
-- [Roadmap](#-roadmap)
-- [Troubleshooting](#-troubleshooting)
-- [Support & Donasi](#-support--donasi)
-
-</td>
-</tr>
-</table>
+| 🎯 Untuk Pemula | 🚀 Untuk Lanjutan |
+|:----------------|:------------------|
+| [Kenalan Dulu Yuk](#-kenalan-dulu-yuk) | [Dari Lokal ke Online](#-dari-lokal-ke-online) |
+| [Dongeng Singkat](#-dongeng-singkat) | [Fitur Lengkap](#-fitur-lengkap) |
+| [Quick Start](#-quick-start) | [Roadmap](#-roadmap) |
+| [Tutorial Lengkap](#-tutorial-lengkap) | [Troubleshooting](#-troubleshooting) |
+| [Setup Userhash (WAJIB)](#-setup-userhash-catbox-wajib) | [Support & Donasi](#-support--donasi) |
 
 ---
 
 ## ✨ Kenalan Dulu Yuk
 
-<div align="center">
-
 ### 💭 *"Foto yang tidak pernah dibuka, sama saja tidak ada."*
-
-</div>
 
 Berapa dari **ribuan foto** di HP Anda yang pernah dilihat **lebih dari sekali**?
 
@@ -72,16 +50,15 @@ Foto itu bukan cuma file. Itu **memori**. Tapi begitu teronggok di HP, dia jadi:
 
 **Automated Media Uploader v6** adalah **script Python** yang mengubah folder lokal menjadi **website galeri online** — gratis, tanpa coding, tanpa hosting bulanan.
 
-### 📊 Yang Dilakukan Script Ini
+### 📊 Alur Kerja
 
 ```mermaid
 flowchart LR
-    A["📁 Folder<br/>Anda"] --> B["🔍 Scan"]
-    B --> C["☁️ Upload<br/>Catbox"]
-    C --> D["🧠 Extract<br/>Metadata"]
-    D --> E["🎨 Generate<br/>HTML"]
-    E --> F["🌐 Deploy<br/>GitHub"]
-    
+    A["📁 Folder Anda"] --> B["🔍 Scan"]
+    B --> C["☁️ Upload Catbox"]
+    C --> D["🧠 Extract Metadata"]
+    D --> E["🎨 Generate HTML"]
+    E --> F["🌐 Deploy GitHub"]
     style A fill:#FFE5B4,stroke:#FF9800,stroke-width:2px,color:#000
     style C fill:#FFB6C1,stroke:#E91E63,stroke-width:2px,color:#000
     style E fill:#B4E5FF,stroke:#2196F3,stroke-width:2px,color:#000
@@ -92,14 +69,9 @@ flowchart LR
 
 ---
 
-
-<div align="center">
-
-### 📖 **DONGENG SINGKAT**
+## 📖 Dongeng Singkat
 
 ### *"Kisah Tentang Foto yang Tidak Pernah Dibuka"*
-
-</div>
 
 ---
 
@@ -121,7 +93,7 @@ Suatu hari, **HP itu rusak**. Motherboard konslet. Tidak bisa dinyalakan.
 
 ---
 
-### 🌟 **TAPI...**
+### 🌟 TAPI...
 
 Di sebuah repo GitHub yang jauh, hiduplah **script Python** yang baik hati.
 
@@ -131,7 +103,7 @@ Namanya: **Automated Media Uploader v6**.
 
 ---
 
-### 🎁 **Hadiah dari Script Ajaib:**
+### 🎁 Hadiah dari Script Ajaib
 
 | Hadiah | Nilai | Harga |
 |--------|:-----:|:-----:|
@@ -147,13 +119,13 @@ Namanya: **Automated Media Uploader v6**.
 
 ---
 
-### 🚀 **Akhir Kisah Ini Terserah Anda:**
+### 🚀 Akhir Kisah Ini Terserah Anda
 
 **Pilihan A:** Tutup README ini, dan tetap punya 10.000 foto yang tidak pernah dibuka.
 
 **Pilihan B:** Ketik `git clone`, jalankan `python main.py`, dan **selamatkan memori Anda.**
 
-### 🎯 **Pilih B.** 👇
+### 🎯 Pilih B. 👇
 
 > 💝 **Kenapa gratis?** Karena author baik hati. Kalau bermanfaat, traktir kopi saja ☕
 
@@ -162,22 +134,31 @@ Namanya: **Automated Media Uploader v6**.
 ## ⚡ Quick Start
 
 ```bash
-# 1. Clone
+# 1. Clone repository
 git clone https://github.com/nexterade/automated-media-uploader.git
 cd automated-media-uploader
 
-# 2. Install
+# 2. Install dependencies
 pip install requests requests-toolbelt Pillow
 
-# 3. Jalankan
+# 3. Jalankan script
 python main.py
 
-# 4. Menu 1 → Setup Wizard (WAJIB isi userhash!)
-# 5. Menu 3 → Upload & Generate
+# 4. Menu 1 -> Setup Wizard (WAJIB isi userhash!)
+# 5. Menu 3 -> Upload & Generate
 # 6. Buka index.html
 ```
 
-**Dependencies:** `requests` (wajib) • `requests-toolbelt`, `Pillow`, `pytesseract`, `opencv-python-headless`, `ffmpeg` (opsional)
+### 📦 Dependencies
+
+| Package | Status | Fungsi |
+|---------|:------:|--------|
+| `requests` | Wajib | HTTP client |
+| `requests-toolbelt` | Opsional | Streaming upload |
+| `Pillow` | Opsional | EXIF + thumbnail |
+| `pytesseract` | Opsional | OCR |
+| `opencv-python-headless` | Opsional | Face detection |
+| `ffmpeg` | Opsional | Video thumbnail |
 
 > Jika opsional tidak ada, fitur terkait **dinonaktifkan otomatis** — script tetap jalan.
 
@@ -185,35 +166,46 @@ python main.py
 
 ## 📚 Tutorial Lengkap
 
-<details>
-<summary><b>Step 1: Install Python & Dependencies</b></summary>
+### 🛠️ Step 1: Install Python & Dependencies
 
 **Termux (Android):**
+
 ```bash
 pkg update && pkg upgrade -y
 pkg install python git ffmpeg tesseract -y
 pip install requests requests-toolbelt Pillow pytesseract opencv-python-headless
 ```
 
-**Ubuntu/Debian:**
+**Ubuntu / Debian:**
+
 ```bash
 sudo apt update
 sudo apt install python3 python3-pip git ffmpeg tesseract-ocr -y
 pip3 install requests requests-toolbelt Pillow pytesseract opencv-python-headless
 ```
 
-**Windows:** Download [Python](https://python.org) (centang **"Add to PATH"**) & [FFmpeg](https://ffmpeg.org/download.html)
+**Windows:**
 
-</details>
+1. Download [Python](https://python.org) — centang **"Add Python to PATH"**
+2. Download [FFmpeg](https://ffmpeg.org/download.html) — tambahkan ke PATH
+3. Install dependencies:
 
-<details>
-<summary><b>Step 2: Folder Media — Apa yang Script Baca</b></summary>
+```cmd
+pip install requests requests-toolbelt Pillow
+```
+
+---
+
+### 📁 Step 2: Folder Media — Apa yang Script Baca
 
 Script **tidak mewajibkan** struktur folder atau nama file tertentu.
 
 **Folder default:** `./media`
 
-**Cara kategorisasi:** File di subfolder apapun → kategori = **nama folder tersebut**. File di root `media/` → kategori = **"General"**.
+**Cara kategorisasi:**
+
+- File di subfolder apapun -> kategori = **nama folder tersebut**
+- File di root `media/` -> kategori = **"General"**
 
 **Format tanggal yang dideteksi otomatis:**
 
@@ -228,23 +220,32 @@ Script **tidak mewajibkan** struktur folder atau nama file tertentu.
 
 **Contoh penamaan:** `pantai_2024-03-15.jpg` lebih baik dari `IMG_1234.jpg`
 
-</details>
+---
 
-<details>
-<summary><b>Step 3: Buat Shortcut (Opsional)</b></summary>
+### 🔧 Step 3: Buat Shortcut (Opsional)
 
-**Alias (Termux/Linux/macOS):**
+**Alias untuk Termux / Linux / macOS:**
+
 ```bash
 nano ~/.bashrc
-# Tambahkan:
+```
+
+Tambahkan baris berikut di akhir file:
+
+```bash
 alias v6='cd ~/automated-media-uploader && python main.py'
 alias v6dir='cd ~/automated-media-uploader'
 alias v6update='cd ~/automated-media-uploader && git pull'
-# Save: Ctrl+X → Y → Enter
+```
+
+Simpan dengan `Ctrl+X` -> `Y` -> `Enter`, lalu reload:
+
+```bash
 source ~/.bashrc
 ```
 
-**Windows:** Buat `v6.bat` di folder project:
+**Windows:** Buat file `v6.bat` di folder project:
+
 ```batch
 @echo off
 cd /d "%~dp0"
@@ -252,10 +253,9 @@ python main.py
 pause
 ```
 
-</details>
+---
 
-<details>
-<summary><b>Step 4: Jalankan & Pahami Menu</b></summary>
+### 🎮 Step 4: Jalankan & Pahami Menu
 
 ```bash
 python main.py
@@ -287,35 +287,68 @@ python main.py
 | 3/9 | 🔢 Counter Namespace | ✅ |
 | 4/9 | 📁 Folder Media | ✅ |
 | 5/9 | ⚙️ Workers (1-4) | ✅ |
-| 6-9 | 🐙 GitHub Setup | Opsional |
-
-</details>
+| 6/9 | 🐙 GitHub Username | Opsional |
+| 7/9 | 📦 GitHub Repo | Opsional |
+| 8/9 | 🔑 GitHub Token | Opsional |
+| 9/9 | 🌿 Branch & Auto | Opsional |
 
 ---
 
-### 🔑 Setup Userhash Catbox (WAJIB)
+## 🔑 Setup Userhash Catbox (WAJIB)
 
-> ⚠️ **Kenapa WAJIB?** Dari analisis kode `upload_to_catbox()`:
+> ⚠️ **Kenapa WAJIB?** Dari analisis kode `upload_to_catbox()` di `main.py`.
 
-**Tanpa userhash:** Rate limit ketat, sering gagal, risiko IP diblokir, tidak bisa manage file.
+### ❌ Tanpa Userhash (Anonymous)
 
-**Dengan userhash:** Upload stabil, bisa upload ribuan file, file terhubung ke akun Anda.
+| Masalah | Dampak |
+|---------|--------|
+| Rate limit ketat | ~beberapa file per 30 menit |
+| Sering gagal | Server tolak request berulang |
+| Tidak bisa manage | Tidak bisa hapus/edit file |
+| Batch pause lama | 60 detik tiap 30 file |
+| Risiko IP diblokir | Temporary ban |
 
-**Cara Mendapatkan:**
+### ✅ Dengan Userhash
 
-1. Buka [catbox.moe](https://catbox.moe) → **Create Account** → verifikasi email
-2. Login → buka [catbox.moe/user/manage.php](https://catbox.moe/user/manage.php)
-3. Scroll ke **"User Hash"** → **COPY** (format: 16-32 karakter hex)
-4. Paste di wizard Step 1/9, atau edit manual di `config.json`:
-   ```json
-   { "userhash": "userhash_anda_di_sini" }
-   ```
+| Benefit | Penjelasan |
+|---------|-----------|
+| Upload stabil | Tanpa rate limit ketat |
+| Lebih cepat | Upload ribuan file lancar |
+| Manage file | Bisa hapus via Catbox panel |
+| Ownership jelas | File terhubung akun Anda |
+| Hindari banned | Server kenali Anda sebagai user terdaftar |
+
+### 📝 Cara Mendapatkan Userhash
+
+**Step 1:** Buka [catbox.moe](https://catbox.moe) -> klik **Create Account** -> isi form -> verifikasi email.
+
+**Step 2:** Login -> buka [catbox.moe/user/manage.php](https://catbox.moe/user/manage.php) -> scroll ke **"User Hash"** -> **COPY**.
+
+Format userhash (16-32 karakter hex):
+
+```
+a1b2c3d4e5f6789012345678abcdef01
+```
+
+**Step 3:** Paste di wizard Step 1/9.
+
+**Cara Alternatif — Edit Manual:**
+
+Edit file `config.json`:
+
+```json
+{
+  "userhash": "userhash_anda_di_sini"
+}
+```
+
+**Step 4:** Test upload via menu 3. Kalau lancar tanpa rate limit, userhash valid! ✅
 
 > 🔐 **Jangan share userhash** ke publik — treat seperti password!
 
 ---
 
-### 🚀 Upload & Generate (Menu 3)
+## 🚀 Upload & Generate (Menu 3)
 
 Setelah wizard selesai, pilih **menu 3**. Script menjalankan `scan_and_upload()`:
 
@@ -327,28 +360,49 @@ Setelah wizard selesai, pilih **menu 3**. Script menjalankan `scan_and_upload()`
 [5/5] ⚙️ Generate manager.html...
 ```
 
-**Output akhir** (dari `print_summary_report()`):
+### 📊 Output Akhir
+
+Dari `print_summary_report()`:
+
 ```
-📊 ATOS BERES BOSS!
-📂 Total File Terdeteksi   : X file
-⚡ Menggunakan Cache       : X file
-✅ Berhasil Diupload       : X file
-❌ Gagal Diupload          : X file
-🕐 Durasi                  : Xm Xs
-🌐 Kuota Internet Dipakai  : X MB
-🚀 Rata-rata Kecepatan     : X MB/s
+======================================================
+        📊 ATOS BERES BOSS!
+======================================================
+ 📂 Total File Terdeteksi   : X file
+ ⚡ Menggunakan Cache       : X file
+ ✅ Berhasil Diupload       : X file
+ ❌ Gagal Diupload          : X file
+------------------------------------------------------
+ 🕐 Mulai                   : HH:MM:SS
+ 🕐 Selesai                 : HH:MM:SS
+ ⏱️  Durasi                  : Xm Xs
+------------------------------------------------------
+ 🌐 Kuota Internet Dipakai  : X MB
+ 🚀 Rata-rata Kecepatan     : X MB/s
+------------------------------------------------------
 ```
 
-**Prompt:** `📤 Upload hasil ke GitHub sekarang? (y/n) [n]:`
+### 📤 Prompt Setelah Upload
 
-**Buka galeri:**
+```
+📤 Upload hasil ke GitHub sekarang? (y/n) [n]:
+```
+
+- Ketik `y` -> push ke GitHub (butuh token)
+- Ketik `n` atau Enter -> simpan lokal
+
+### 👁️ Buka Galeri
+
 ```bash
+# Cara 1: Buka langsung
 termux-open index.html          # Termux
 xdg-open index.html             # Linux
 open index.html                 # macOS
 start index.html                # Windows
+```
 
-# Atau via HTTP (recommended):
+```bash
+# Cara 2: Serve via HTTP (recommended)
 python -m http.server 8000
 # Buka http://localhost:8000
 ```
@@ -359,45 +413,96 @@ python -m http.server 8000
 
 ### 🎯 Deploy ke GitHub Pages (GRATIS)
 
-**Step 1: Buat Akun** — [github.com/signup](https://github.com/signup)
+**Step 1: Buat Akun GitHub**
+Buka [github.com/signup](https://github.com/signup) -> isi form -> verifikasi email.
 
-**Step 2: Buat Repository** — Klik `+` → **New repository** → isi nama → **Public**
+**Step 2: Buat Repository**
+Klik `+` -> **New repository** -> isi nama -> pilih **Public** -> Create.
 
-**Step 3: Buat Token** — [github.com/settings/tokens](https://github.com/settings/tokens) → **Generate new token (classic)** → scope: ✅ **`repo`** → **SALIN TOKEN** (hanya muncul sekali!)
+**Step 3: Buat Personal Access Token**
+Buka [github.com/settings/tokens](https://github.com/settings/tokens) -> **Generate new token (classic)** -> scope: ✅ **`repo`** -> **SALIN TOKEN** (hanya muncul sekali!).
 
-**Step 4: Aktifkan Pages** — Settings → Pages → Branch: `main`, Folder: `/ (root)` → Save
+Format token: `ghp_xxxxxxxxxxxxxxxx`
 
-**Step 5: Deploy** — Jalankan menu 3 → jawab `y` saat ditanya GitHub.
+**Step 4: Aktifkan GitHub Pages**
+Buka repo -> **Settings** -> **Pages** -> Source:
+
+- Branch: `main`
+- Folder: `/ (root)`
+- Save
+
+**Step 5: Deploy via Script**
+Jalankan menu 3 -> jawab `y` saat ditanya GitHub.
 
 Galeri online di: `https://USERNAME.github.io/NAMA-REPO/`
 
-**Update nanti:** Copy foto baru → menu 3 → `y` → selesai!
+### 🔄 Update Konten Nanti
+
+```bash
+# 1. Copy foto baru
+cp foto_baru.jpg media/
+
+# 2. Jalankan script
+python main.py
+
+# 3. Menu 3 -> jawab "y" saat ditanya GitHub
+```
 
 ---
 
 ## 📊 Fitur Lengkap
 
-**📤 Upload Engine:**
+### 📤 Upload Engine
+
 - Upload ke Catbox.moe, max **200 MB per file**
-- Auto retry 3x, handle rate limit 429, batch pause 60s per 30 file
-- Multi-thread 1-4 workers, cache system, verifikasi upload
+- Progress bar real-time
+- Auto retry **3x** untuk kegagalan
+- Handle rate limit HTTP 429 (delay 15s, 30s, 45s)
+- Fallback anonymous jika userhash invalid
+- Batch pause **60 detik setiap 30 file**
+- Multi-thread 1-4 workers
+- Cache system hindari upload ulang
+- Verifikasi ukuran file upload
 
-**🧠 Metadata Extraction:**
-- EXIF lengkap (kamera, lensa, ISO, f-number, exposure, GPS)
-- Auto-tag dari nama file + EXIF + folder
-- OCR (Tesseract), deteksi wajah (OpenCV), deteksi warna dominan
-- Thumbnail video (FFmpeg) & gambar (Pillow)
+### 🧠 Metadata Extraction
 
-**🎨 Galeri HTML:**
+- **EXIF lengkap** — kamera, lensa, ISO, f-number, exposure, focal
+- **GPS coordinates** — lat/lon untuk peta
+- **Auto-tag** dari nama file + EXIF + folder
+- **6 format tanggal** otomatis dideteksi
+- **OCR** via Tesseract (opsional)
+- **Deteksi wajah** via OpenCV (opsional)
+- **Deteksi warna dominan**
+- **Thumbnail video** via FFmpeg (opsional)
+- **Thumbnail gambar** via Pillow (opsional)
+
+### 🎨 Galeri HTML Modern
+
 - **10 tema** — Dark, Light, Midnight, Sunset, Forest, Rose Gold, AMOLED, Cyberpunk, Sepia, macOS
 - **6 layout** — Mosaic, Grid, List, Cinema, Magazine, Seamless
 - **3 density** — Compact, Normal, Comfortable
-- Search, filter (tag/kategori/bulan/tanggal), lightbox dengan zoom & swipe
-- View counter (Abacus), peta lokasi (Leaflet), statistik top 10, share ke sosmed
+- **5 sorting** — date_desc, date_asc, size_desc, size_asc, views_desc
+- Search real-time & filter lengkap
+- Lightbox dengan zoom, swipe, pinch
+- View counter via Abacus API
+- Peta lokasi via Leaflet
+- Statistik top 10 populer
+- Share ke sosial media
 
-**🛠️ Tools:** GitHub deploy, HTML compressor, CSV export, backup zip, URL verifier, cache fixer, manager HTML.
+### 🛠️ Tools & Utilities
 
-**📁 Format:** `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`, `.svg`, `.ico`, `.mp4`, `.mkv`, `.webm`, `.mov`
+- GitHub auto-deploy
+- HTML compressor (minify)
+- CSV export
+- Project backup (zip)
+- URL verifier
+- Cache fixer
+- Manager HTML panel
+
+### 📁 Format Didukung
+
+- **Gambar:** `.jpg`, `.jpeg`, `.png`, `.webp`, `.gif`, `.svg`, `.ico`
+- **Video:** `.mp4`, `.mkv`, `.webm`, `.mov`
 
 ---
 
@@ -410,22 +515,18 @@ gantt
     title Roadmap Automated Media Uploader
     dateFormat YYYY-MM-DD
     axisFormat %b %Y
-    
     section v6.1 Polish
     Enkripsi Token Config       :done,   v61a, 2025-04-01, 15d
     PWA Support                 :active, v61b, 2025-04-15, 30d
     Auto-convert JPG to WebP    :        v61c, 2025-05-01, 20d
-    
     section v6.2 Multi-Cloud
     Support ImgBB & Telegraph   :        v62a, 2025-07-01, 30d
     Video Transcoding           :        v62b, 2025-08-01, 25d
     AI Auto-Caption             :        v62c, 2025-08-20, 30d
-    
     section v6.3 Smart
     Duplicate Detection         :        v63a, 2025-10-01, 20d
     Face Recognition            :        v63b, 2025-10-20, 30d
     Password Protect            :        v63e, 2026-01-15, 20d
-    
     section v7.0 Next Gen
     GUI Desktop                 :        v70a, 2026-02-01, 60d
     Mobile App Flutter          :        v70b, 2026-04-01, 90d
@@ -443,93 +544,70 @@ v7.0 ░░░░░░░░░░░░░░░░░░░░░░░░░
 
 ### 🎯 Highlight per Versi
 
-<details>
-<summary><b>🔷 v6.1 — Polish (Q2 2025) — 40%</b></summary>
+**🔷 v6.1 — Polish (Q2 2025) — 40%**
 
 - ✅ Enkripsi token di config
 - 🚧 PWA support
-- 📅 Auto-convert JPG → WebP
+- 📅 Auto-convert JPG -> WebP
 - 📅 Auto dark mode
 - 📅 Dashboard analytics
 
-</details>
-
-<details>
-<summary><b>🔷 v6.2 — Multi-Cloud (Q3 2025) — 10%</b></summary>
+**🔷 v6.2 — Multi-Cloud (Q3 2025) — 10%**
 
 - 📅 Support ImgBB & Telegraph
 - 📅 Video transcoding otomatis
 - 📅 AI auto-caption
 - 📅 Multi-language UI
 
-</details>
-
-<details>
-<summary><b>🔷 v6.3 — Smart (Q4 2025) — 0%</b></summary>
+**🔷 v6.3 — Smart (Q4 2025) — 0%**
 
 - 💭 Duplicate detection
 - 💭 Face recognition
 - 💭 Timeline view
 - 💭 Password protect
 
-</details>
-
-<details>
-<summary><b>🔷 v7.0 — Next Gen (2026) — 0%</b></summary>
+**🔷 v7.0 — Next Gen (2026) — 0%**
 
 - 💭 GUI Desktop (Tauri)
 - 💭 Mobile App (Flutter)
 - 💭 Auto-sync watch folder
 - 💭 Multi-user support
 
-</details>
-
 ---
 
 ## 🛠️ Troubleshooting
 
-<details>
-<summary><b>🔥 Error: ModuleNotFoundError</b></summary>
+### 🔥 Error: ModuleNotFoundError
 
 ```bash
 pip install requests requests-toolbelt Pillow pytesseract opencv-python-headless
 ```
 
-</details>
+### 🔥 Upload gagal terus
 
-<details>
-<summary><b>🔥 Upload gagal terus</b></summary>
+Cek list berikut:
 
 - [ ] Koneksi internet OK?
 - [ ] **Userhash sudah diisi?** (WAJIB!)
 - [ ] File < 200 MB?
 - [ ] Coba `workers = 1`
 
-**Fix cache:** Menu 10 → 6
+**Fix cache:** Menu 10 -> 6
 
-</details>
-
-<details>
-<summary><b>🔥 Gambar tidak muncul di HTML</b></summary>
+### 🔥 Gambar tidak muncul di HTML
 
 1. Cek URL Catbox di browser
-2. Hapus cache: Menu 5 → y
+2. Hapus cache: Menu 5 -> y
 3. Upload ulang: Menu 3
-4. Verifikasi: Menu 10 → 5
+4. Verifikasi: Menu 10 -> 5
 
-</details>
-
-<details>
-<summary><b>🔥 GitHub push failed</b></summary>
+### 🔥 GitHub push failed
 
 - Buat token baru dengan scope `repo`
-- Update di config: Menu 2 → 8
+- Update di config: Menu 2 -> 8
 - Pastikan branch = `main`
 
-</details>
-
-<details>
-<summary><b>🔥 Reset Total</b></summary>
+### 🔥 Reset Total
 
 ```bash
 rm config.json uploads_cache.json deleted.json
@@ -537,92 +615,51 @@ python main.py
 # Menu 1 — Setup ulang
 ```
 
-</details>
-
 ---
 
 ## 💎 Support & Donasi
 
-<div align="center">
-
 ### 💖 Kalau project ini bermanfaat, dukung author!
-
-</div>
 
 ### ☕ Traktir Kopi
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-[![Saweria](https://img.shields.io/badge/☕_Traktir_Kopi-Saweria-FF6B6B?style=for-the-badge)](https://saweria.co/nexterade)
-
-**Saweria** (Indonesia)
-
-</td>
-<td align="center" width="50%">
-
-[![Ko-fi](https://img.shields.io/badge/☕_Buy_Me_Coffee-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/nexterade)
-
-**Ko-fi** (Internasional)
-
-</td>
-</tr>
-</table>
+| Indonesia | Internasional |
+|:---------:|:-------------:|
+| [![Saweria](https://img.shields.io/badge/☕_Traktir_Kopi-Saweria-FF6B6B?style=for-the-badge)](https://saweria.co/nexterade) | [![Ko-fi](https://img.shields.io/badge/☕_Buy_Me_Coffee-Ko--fi-FF5E5B?style=for-the-badge)](https://ko-fi.com/nexterade) |
 
 ### 🪙 Crypto Donation
 
-<table align="center">
-<tr>
-<td align="center" width="50%">
+#### ₿ Bitcoin (BTC)
 
-#### ₿ **Bitcoin (BTC)**
 ```
 bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh
 ```
 
-</td>
-<td align="center" width="50%">
+#### Ξ Ethereum (ETH)
 
-#### Ξ **Ethereum (ETH)**
 ```
 0x71C7656EC7ab88b098defB751B7401B5f6d8976F
 ```
 
-</td>
-</tr>
-<tr>
-<td align="center" width="50%">
+#### ₮ USDT (TRC-20)
 
-#### ₮ **USDT (TRC-20)**
 ```
 TN9RRaXkCFtTXRso2GdTZxSxxwBb2dFd4S
 ```
 
-</td>
-<td align="center" width="50%">
+#### ◎ Solana (SOL)
 
-#### ◎ **Solana (SOL)**
 ```
 DYw8jCTfwHNRJhhmFcbXvVDTqWMEVFBX6ZKUmG5CNSKK
 ```
 
-</td>
-</tr>
-</table>
-
-> ⚠️ Alamat crypto di atas adalah **contoh placeholder**. Ganti dengan alamat asli sebelum publish.
+> 💡 Scan dengan crypto wallet, atau copy-paste. Pastikan network sesuai sebelum kirim!
 
 ### 🎁 Cara Lain Mendukung
 
-<table align="center">
-<tr>
-<td align="center" width="25%">⭐<br><b>Star Repo</b></td>
-<td align="center" width="25%">🐛<br><b>Report Bug</b></td>
-<td align="center" width="25%">📢<br><b>Share</b></td>
-<td align="center" width="25%">🤝<br><b>Kontribusi</b></td>
-</tr>
-</table>
+| ⭐ Star Repo | 🐛 Report Bug | 📢 Share | 🤝 Kontribusi |
+|:-----------:|:-------------:|:--------:|:-------------:|
+| Di GitHub | Bantu perbaiki | Ke teman | Pull request |
 
 ---
 
@@ -634,7 +671,7 @@ DYw8jCTfwHNRJhhmFcbXvVDTqWMEVFBX6ZKUmG5CNSKK
 
 <br>
 
-### **@nexterade**
+### @nexterade
 
 *Full-stack Developer • Automation Enthusiast • Indonesia* 🇮🇩
 
@@ -646,7 +683,8 @@ DYw8jCTfwHNRJhhmFcbXvVDTqWMEVFBX6ZKUmG5CNSKK
 
 ### *"Code with passion, share with love."*
 
-Developer yang suka bikin tool automation untuk mempermudah hidup. Project ini awalnya dibuat untuk kebutuhan pribadi, lalu di-open source.
+Developer yang suka bikin tool automation untuk mempermudah hidup.
+Project ini awalnya dibuat untuk kebutuhan pribadi, lalu di-open source.
 
 </div>
 
@@ -658,6 +696,18 @@ Developer yang suka bikin tool automation untuk mempermudah hidup. Project ini a
 
 ```
 Copyright (c) 2025 @nexterade
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 ```
 
 ---
@@ -670,7 +720,7 @@ Copyright (c) 2025 @nexterade
 
 ```
 ╔═══════════════════════════════════════════════╗
-║   📸 Upload  →  🎨 Generate  →  🌐 Deploy    ║
+║   📸 Upload  ->  🎨 Generate  ->  🌐 Deploy  ║
 ║                                               ║
 ║   Repo Gratis Yang Mengubah Folder            ║
 ║   Jadi Website Yang Keren                     ║
@@ -680,6 +730,3 @@ Copyright (c) 2025 @nexterade
 ```
 
 </div>
-```
-
----
